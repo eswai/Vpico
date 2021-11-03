@@ -1,0 +1,1324 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6145680F
+P 4850 1650
+F 0 "SW1" H 4850 1935 50  0000 C CNN
+F 1 "SW_Push" H 4850 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4850 1850 50  0001 C CNN
+F 3 "~" H 4850 1850 50  0001 C CNN
+	1    4850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 6145719D
+P 4650 1800
+F 0 "D1" V 4696 1720 50  0000 R CNN
+F 1 "D" V 4605 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4650 1800 50  0001 C CNN
+F 3 "~" H 4650 1800 50  0001 C CNN
+	1    4650 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 61457C6C
+P 5425 1650
+F 0 "SW2" H 5425 1935 50  0000 C CNN
+F 1 "SW_Push" H 5425 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 5425 1850 50  0001 C CNN
+F 3 "~" H 5425 1850 50  0001 C CNN
+	1    5425 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 61457C76
+P 5225 1800
+F 0 "D2" V 5271 1720 50  0000 R CNN
+F 1 "D" V 5180 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5225 1800 50  0001 C CNN
+F 3 "~" H 5225 1800 50  0001 C CNN
+	1    5225 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 614591F2
+P 5975 1650
+F 0 "SW3" H 5975 1935 50  0000 C CNN
+F 1 "SW_Push" H 5975 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 5975 1850 50  0001 C CNN
+F 3 "~" H 5975 1850 50  0001 C CNN
+	1    5975 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 614591FC
+P 5775 1800
+F 0 "D3" V 5821 1720 50  0000 R CNN
+F 1 "D" V 5730 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5775 1800 50  0001 C CNN
+F 3 "~" H 5775 1800 50  0001 C CNN
+	1    5775 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 61459206
+P 6550 1650
+F 0 "SW4" H 6550 1935 50  0000 C CNN
+F 1 "SW_Push" H 6550 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 6550 1850 50  0001 C CNN
+F 3 "~" H 6550 1850 50  0001 C CNN
+	1    6550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 61459210
+P 6350 1800
+F 0 "D4" V 6396 1720 50  0000 R CNN
+F 1 "D" V 6305 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6350 1800 50  0001 C CNN
+F 3 "~" H 6350 1800 50  0001 C CNN
+	1    6350 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 6145AE02
+P 7100 1650
+F 0 "SW5" H 7100 1935 50  0000 C CNN
+F 1 "SW_Push" H 7100 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 7100 1850 50  0001 C CNN
+F 3 "~" H 7100 1850 50  0001 C CNN
+	1    7100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 6145AE0C
+P 6900 1800
+F 0 "D5" V 6946 1720 50  0000 R CNN
+F 1 "D" V 6855 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6900 1800 50  0001 C CNN
+F 3 "~" H 6900 1800 50  0001 C CNN
+	1    6900 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 6145AE16
+P 7675 1650
+F 0 "SW6" H 7675 1935 50  0000 C CNN
+F 1 "SW_Push" H 7675 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 7675 1850 50  0001 C CNN
+F 3 "~" H 7675 1850 50  0001 C CNN
+	1    7675 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 6145AE20
+P 7475 1800
+F 0 "D6" V 7521 1720 50  0000 R CNN
+F 1 "D" V 7430 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7475 1800 50  0001 C CNN
+F 3 "~" H 7475 1800 50  0001 C CNN
+	1    7475 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 6145AE2A
+P 8225 1650
+F 0 "SW7" H 8225 1935 50  0000 C CNN
+F 1 "SW_Push" H 8225 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 8225 1850 50  0001 C CNN
+F 3 "~" H 8225 1850 50  0001 C CNN
+	1    8225 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 6145AE34
+P 8025 1800
+F 0 "D7" V 8071 1720 50  0000 R CNN
+F 1 "D" V 7980 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8025 1800 50  0001 C CNN
+F 3 "~" H 8025 1800 50  0001 C CNN
+	1    8025 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 6145AE3E
+P 8800 1650
+F 0 "SW8" H 8800 1935 50  0000 C CNN
+F 1 "SW_Push" H 8800 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 8800 1850 50  0001 C CNN
+F 3 "~" H 8800 1850 50  0001 C CNN
+	1    8800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 6145AE48
+P 8600 1800
+F 0 "D8" V 8646 1720 50  0000 R CNN
+F 1 "D" V 8555 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8600 1800 50  0001 C CNN
+F 3 "~" H 8600 1800 50  0001 C CNN
+	1    8600 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 6145D116
+P 9375 1650
+F 0 "SW9" H 9375 1935 50  0000 C CNN
+F 1 "SW_Push" H 9375 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 9375 1850 50  0001 C CNN
+F 3 "~" H 9375 1850 50  0001 C CNN
+	1    9375 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 6145D120
+P 9175 1800
+F 0 "D9" V 9221 1720 50  0000 R CNN
+F 1 "D" V 9130 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9175 1800 50  0001 C CNN
+F 3 "~" H 9175 1800 50  0001 C CNN
+	1    9175 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 6145D12A
+P 9950 1650
+F 0 "SW10" H 9950 1935 50  0000 C CNN
+F 1 "SW_Push" H 9950 1844 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 9950 1850 50  0001 C CNN
+F 3 "~" H 9950 1850 50  0001 C CNN
+	1    9950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 6145D134
+P 9750 1800
+F 0 "D10" V 9796 1720 50  0000 R CNN
+F 1 "D" V 9705 1720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 1800 50  0001 C CNN
+F 3 "~" H 9750 1800 50  0001 C CNN
+	1    9750 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 6145F068
+P 4850 2400
+F 0 "SW11" H 4850 2685 50  0000 C CNN
+F 1 "SW_Push" H 4850 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4850 2600 50  0001 C CNN
+F 3 "~" H 4850 2600 50  0001 C CNN
+	1    4850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 6145F072
+P 4650 2550
+F 0 "D11" V 4696 2470 50  0000 R CNN
+F 1 "D" V 4605 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4650 2550 50  0001 C CNN
+F 3 "~" H 4650 2550 50  0001 C CNN
+	1    4650 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 6145F07C
+P 5425 2400
+F 0 "SW12" H 5425 2685 50  0000 C CNN
+F 1 "SW_Push" H 5425 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 5425 2600 50  0001 C CNN
+F 3 "~" H 5425 2600 50  0001 C CNN
+	1    5425 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 6145F086
+P 5225 2550
+F 0 "D12" V 5271 2470 50  0000 R CNN
+F 1 "D" V 5180 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5225 2550 50  0001 C CNN
+F 3 "~" H 5225 2550 50  0001 C CNN
+	1    5225 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 6145F090
+P 5975 2400
+F 0 "SW13" H 5975 2685 50  0000 C CNN
+F 1 "SW_Push" H 5975 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 5975 2600 50  0001 C CNN
+F 3 "~" H 5975 2600 50  0001 C CNN
+	1    5975 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 6145F09A
+P 5775 2550
+F 0 "D13" V 5821 2470 50  0000 R CNN
+F 1 "D" V 5730 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5775 2550 50  0001 C CNN
+F 3 "~" H 5775 2550 50  0001 C CNN
+	1    5775 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 6145F0A4
+P 6550 2400
+F 0 "SW14" H 6550 2685 50  0000 C CNN
+F 1 "SW_Push" H 6550 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 6550 2600 50  0001 C CNN
+F 3 "~" H 6550 2600 50  0001 C CNN
+	1    6550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 6145F0AE
+P 6350 2550
+F 0 "D14" V 6396 2470 50  0000 R CNN
+F 1 "D" V 6305 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6350 2550 50  0001 C CNN
+F 3 "~" H 6350 2550 50  0001 C CNN
+	1    6350 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 6145F0B8
+P 7100 2400
+F 0 "SW15" H 7100 2685 50  0000 C CNN
+F 1 "SW_Push" H 7100 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 7100 2600 50  0001 C CNN
+F 3 "~" H 7100 2600 50  0001 C CNN
+	1    7100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 6145F0C2
+P 6900 2550
+F 0 "D15" V 6946 2470 50  0000 R CNN
+F 1 "D" V 6855 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6900 2550 50  0001 C CNN
+F 3 "~" H 6900 2550 50  0001 C CNN
+	1    6900 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 6145F0CC
+P 7675 2400
+F 0 "SW16" H 7675 2685 50  0000 C CNN
+F 1 "SW_Push" H 7675 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 7675 2600 50  0001 C CNN
+F 3 "~" H 7675 2600 50  0001 C CNN
+	1    7675 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 6145F0D6
+P 7475 2550
+F 0 "D16" V 7521 2470 50  0000 R CNN
+F 1 "D" V 7430 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7475 2550 50  0001 C CNN
+F 3 "~" H 7475 2550 50  0001 C CNN
+	1    7475 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 6145F0E0
+P 8225 2400
+F 0 "SW17" H 8225 2685 50  0000 C CNN
+F 1 "SW_Push" H 8225 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 8225 2600 50  0001 C CNN
+F 3 "~" H 8225 2600 50  0001 C CNN
+	1    8225 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 6145F0EA
+P 8025 2550
+F 0 "D17" V 8071 2470 50  0000 R CNN
+F 1 "D" V 7980 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8025 2550 50  0001 C CNN
+F 3 "~" H 8025 2550 50  0001 C CNN
+	1    8025 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 6145F0F4
+P 8800 2400
+F 0 "SW18" H 8800 2685 50  0000 C CNN
+F 1 "SW_Push" H 8800 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 8800 2600 50  0001 C CNN
+F 3 "~" H 8800 2600 50  0001 C CNN
+	1    8800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 6145F0FE
+P 8600 2550
+F 0 "D18" V 8646 2470 50  0000 R CNN
+F 1 "D" V 8555 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8600 2550 50  0001 C CNN
+F 3 "~" H 8600 2550 50  0001 C CNN
+	1    8600 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 6145F108
+P 9375 2400
+F 0 "SW19" H 9375 2685 50  0000 C CNN
+F 1 "SW_Push" H 9375 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 9375 2600 50  0001 C CNN
+F 3 "~" H 9375 2600 50  0001 C CNN
+	1    9375 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 6145F112
+P 9175 2550
+F 0 "D19" V 9221 2470 50  0000 R CNN
+F 1 "D" V 9130 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9175 2550 50  0001 C CNN
+F 3 "~" H 9175 2550 50  0001 C CNN
+	1    9175 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 6145F11C
+P 9950 2400
+F 0 "SW20" H 9950 2685 50  0000 C CNN
+F 1 "SW_Push" H 9950 2594 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 9950 2600 50  0001 C CNN
+F 3 "~" H 9950 2600 50  0001 C CNN
+	1    9950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 6145F126
+P 9750 2550
+F 0 "D20" V 9796 2470 50  0000 R CNN
+F 1 "D" V 9705 2470 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 2550 50  0001 C CNN
+F 3 "~" H 9750 2550 50  0001 C CNN
+	1    9750 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 61474046
+P 4850 3175
+F 0 "SW21" H 4850 3460 50  0000 C CNN
+F 1 "SW_Push" H 4850 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4850 3375 50  0001 C CNN
+F 3 "~" H 4850 3375 50  0001 C CNN
+	1    4850 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 61474050
+P 4650 3325
+F 0 "D21" V 4696 3245 50  0000 R CNN
+F 1 "D" V 4605 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4650 3325 50  0001 C CNN
+F 3 "~" H 4650 3325 50  0001 C CNN
+	1    4650 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 6147405A
+P 5425 3175
+F 0 "SW22" H 5425 3460 50  0000 C CNN
+F 1 "SW_Push" H 5425 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 5425 3375 50  0001 C CNN
+F 3 "~" H 5425 3375 50  0001 C CNN
+	1    5425 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 61474064
+P 5225 3325
+F 0 "D22" V 5271 3245 50  0000 R CNN
+F 1 "D" V 5180 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5225 3325 50  0001 C CNN
+F 3 "~" H 5225 3325 50  0001 C CNN
+	1    5225 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 6147406E
+P 5975 3175
+F 0 "SW23" H 5975 3460 50  0000 C CNN
+F 1 "SW_Push" H 5975 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 5975 3375 50  0001 C CNN
+F 3 "~" H 5975 3375 50  0001 C CNN
+	1    5975 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 61474078
+P 5775 3325
+F 0 "D23" V 5821 3245 50  0000 R CNN
+F 1 "D" V 5730 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5775 3325 50  0001 C CNN
+F 3 "~" H 5775 3325 50  0001 C CNN
+	1    5775 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 61474082
+P 6550 3175
+F 0 "SW24" H 6550 3460 50  0000 C CNN
+F 1 "SW_Push" H 6550 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 6550 3375 50  0001 C CNN
+F 3 "~" H 6550 3375 50  0001 C CNN
+	1    6550 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 6147408C
+P 6350 3325
+F 0 "D24" V 6396 3245 50  0000 R CNN
+F 1 "D" V 6305 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6350 3325 50  0001 C CNN
+F 3 "~" H 6350 3325 50  0001 C CNN
+	1    6350 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 61474096
+P 7100 3175
+F 0 "SW25" H 7100 3460 50  0000 C CNN
+F 1 "SW_Push" H 7100 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 7100 3375 50  0001 C CNN
+F 3 "~" H 7100 3375 50  0001 C CNN
+	1    7100 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 614740A0
+P 6900 3325
+F 0 "D25" V 6946 3245 50  0000 R CNN
+F 1 "D" V 6855 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6900 3325 50  0001 C CNN
+F 3 "~" H 6900 3325 50  0001 C CNN
+	1    6900 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 614740AA
+P 7675 3175
+F 0 "SW26" H 7675 3460 50  0000 C CNN
+F 1 "SW_Push" H 7675 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 7675 3375 50  0001 C CNN
+F 3 "~" H 7675 3375 50  0001 C CNN
+	1    7675 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 614740B4
+P 7475 3325
+F 0 "D26" V 7521 3245 50  0000 R CNN
+F 1 "D" V 7430 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7475 3325 50  0001 C CNN
+F 3 "~" H 7475 3325 50  0001 C CNN
+	1    7475 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 614740BE
+P 8225 3175
+F 0 "SW27" H 8225 3460 50  0000 C CNN
+F 1 "SW_Push" H 8225 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 8225 3375 50  0001 C CNN
+F 3 "~" H 8225 3375 50  0001 C CNN
+	1    8225 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 614740C8
+P 8025 3325
+F 0 "D27" V 8071 3245 50  0000 R CNN
+F 1 "D" V 7980 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8025 3325 50  0001 C CNN
+F 3 "~" H 8025 3325 50  0001 C CNN
+	1    8025 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 614740D2
+P 8800 3175
+F 0 "SW28" H 8800 3460 50  0000 C CNN
+F 1 "SW_Push" H 8800 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 8800 3375 50  0001 C CNN
+F 3 "~" H 8800 3375 50  0001 C CNN
+	1    8800 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 614740DC
+P 8600 3325
+F 0 "D28" V 8646 3245 50  0000 R CNN
+F 1 "D" V 8555 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8600 3325 50  0001 C CNN
+F 3 "~" H 8600 3325 50  0001 C CNN
+	1    8600 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 614740E6
+P 9375 3175
+F 0 "SW29" H 9375 3460 50  0000 C CNN
+F 1 "SW_Push" H 9375 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 9375 3375 50  0001 C CNN
+F 3 "~" H 9375 3375 50  0001 C CNN
+	1    9375 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 614740F0
+P 9175 3325
+F 0 "D29" V 9221 3245 50  0000 R CNN
+F 1 "D" V 9130 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9175 3325 50  0001 C CNN
+F 3 "~" H 9175 3325 50  0001 C CNN
+	1    9175 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 614740FA
+P 9950 3175
+F 0 "SW30" H 9950 3460 50  0000 C CNN
+F 1 "SW_Push" H 9950 3369 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 9950 3375 50  0001 C CNN
+F 3 "~" H 9950 3375 50  0001 C CNN
+	1    9950 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 61474104
+P 9750 3325
+F 0 "D30" V 9796 3245 50  0000 R CNN
+F 1 "D" V 9705 3245 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 3325 50  0001 C CNN
+F 3 "~" H 9750 3325 50  0001 C CNN
+	1    9750 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 6147410E
+P 4850 3925
+F 0 "SW31" H 4850 4210 50  0000 C CNN
+F 1 "SW_Push" H 4850 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4850 4125 50  0001 C CNN
+F 3 "~" H 4850 4125 50  0001 C CNN
+	1    4850 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 61474118
+P 4650 4075
+F 0 "D31" V 4696 3995 50  0000 R CNN
+F 1 "D" V 4605 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4650 4075 50  0001 C CNN
+F 3 "~" H 4650 4075 50  0001 C CNN
+	1    4650 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 61474122
+P 5425 3925
+F 0 "SW32" H 5425 4210 50  0000 C CNN
+F 1 "SW_Push" H 5425 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 5425 4125 50  0001 C CNN
+F 3 "~" H 5425 4125 50  0001 C CNN
+	1    5425 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 6147412C
+P 5225 4075
+F 0 "D32" V 5271 3995 50  0000 R CNN
+F 1 "D" V 5180 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5225 4075 50  0001 C CNN
+F 3 "~" H 5225 4075 50  0001 C CNN
+	1    5225 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 61474136
+P 5975 3925
+F 0 "SW33" H 5975 4210 50  0000 C CNN
+F 1 "SW_Push" H 5975 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 5975 4125 50  0001 C CNN
+F 3 "~" H 5975 4125 50  0001 C CNN
+	1    5975 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 61474140
+P 5775 4075
+F 0 "D33" V 5821 3995 50  0000 R CNN
+F 1 "D" V 5730 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5775 4075 50  0001 C CNN
+F 3 "~" H 5775 4075 50  0001 C CNN
+	1    5775 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 6147414A
+P 6550 3925
+F 0 "SW34" H 6550 4210 50  0000 C CNN
+F 1 "SW_Push" H 6550 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 6550 4125 50  0001 C CNN
+F 3 "~" H 6550 4125 50  0001 C CNN
+	1    6550 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 61474154
+P 6350 4075
+F 0 "D34" V 6396 3995 50  0000 R CNN
+F 1 "D" V 6305 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6350 4075 50  0001 C CNN
+F 3 "~" H 6350 4075 50  0001 C CNN
+	1    6350 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 6147415E
+P 7100 3925
+F 0 "SW35" H 7100 4210 50  0000 C CNN
+F 1 "SW_Push" H 7100 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1.5u" H 7100 4125 50  0001 C CNN
+F 3 "~" H 7100 4125 50  0001 C CNN
+	1    7100 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 61474168
+P 6900 4075
+F 0 "D35" V 6946 3995 50  0000 R CNN
+F 1 "D" V 6855 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6900 4075 50  0001 C CNN
+F 3 "~" H 6900 4075 50  0001 C CNN
+	1    6900 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 61474172
+P 7675 3925
+F 0 "SW36" H 7675 4210 50  0000 C CNN
+F 1 "SW_Push" H 7675 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1.5u" H 7675 4125 50  0001 C CNN
+F 3 "~" H 7675 4125 50  0001 C CNN
+	1    7675 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 6147417C
+P 7475 4075
+F 0 "D36" V 7521 3995 50  0000 R CNN
+F 1 "D" V 7430 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7475 4075 50  0001 C CNN
+F 3 "~" H 7475 4075 50  0001 C CNN
+	1    7475 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 61474186
+P 8225 3925
+F 0 "SW37" H 8225 4210 50  0000 C CNN
+F 1 "SW_Push" H 8225 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 8225 4125 50  0001 C CNN
+F 3 "~" H 8225 4125 50  0001 C CNN
+	1    8225 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 61474190
+P 8025 4075
+F 0 "D37" V 8071 3995 50  0000 R CNN
+F 1 "D" V 7980 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8025 4075 50  0001 C CNN
+F 3 "~" H 8025 4075 50  0001 C CNN
+	1    8025 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 6147419A
+P 8800 3925
+F 0 "SW38" H 8800 4210 50  0000 C CNN
+F 1 "SW_Push" H 8800 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 8800 4125 50  0001 C CNN
+F 3 "~" H 8800 4125 50  0001 C CNN
+	1    8800 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 614741A4
+P 8600 4075
+F 0 "D38" V 8646 3995 50  0000 R CNN
+F 1 "D" V 8555 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8600 4075 50  0001 C CNN
+F 3 "~" H 8600 4075 50  0001 C CNN
+	1    8600 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 614741AE
+P 9375 3925
+F 0 "SW39" H 9375 4210 50  0000 C CNN
+F 1 "SW_Push" H 9375 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 9375 4125 50  0001 C CNN
+F 3 "~" H 9375 4125 50  0001 C CNN
+	1    9375 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 614741B8
+P 9175 4075
+F 0 "D39" V 9221 3995 50  0000 R CNN
+F 1 "D" V 9130 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9175 4075 50  0001 C CNN
+F 3 "~" H 9175 4075 50  0001 C CNN
+	1    9175 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 614741C2
+P 9950 3925
+F 0 "SW40" H 9950 4210 50  0000 C CNN
+F 1 "SW_Push" H 9950 4119 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 9950 4125 50  0001 C CNN
+F 3 "~" H 9950 4125 50  0001 C CNN
+	1    9950 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 614741CC
+P 9750 4075
+F 0 "D40" V 9796 3995 50  0000 R CNN
+F 1 "D" V 9705 3995 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 4075 50  0001 C CNN
+F 3 "~" H 9750 4075 50  0001 C CNN
+	1    9750 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 61566BF5
+P 2225 3950
+F 0 "J1" V 2097 4130 50  0000 L CNN
+F 1 "Conn_01x04" V 2188 4130 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2225 3950 50  0001 C CNN
+F 3 "~" H 2225 3950 50  0001 C CNN
+	1    2225 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2025 3450 2025 3750
+Wire Wire Line
+	2225 3450 2225 3750
+Text GLabel 4225 1950 0    50   Input ~ 0
+R1
+Text GLabel 4200 2700 0    50   Input ~ 0
+R2
+Text GLabel 4200 3475 0    50   Input ~ 0
+R3
+Text GLabel 4200 4225 0    50   Input ~ 0
+R4
+Wire Wire Line
+	4225 1950 4650 1950
+Connection ~ 4650 1950
+Wire Wire Line
+	4650 1950 5225 1950
+Connection ~ 5225 1950
+Wire Wire Line
+	5225 1950 5775 1950
+Connection ~ 5775 1950
+Wire Wire Line
+	5775 1950 6350 1950
+Connection ~ 6350 1950
+Wire Wire Line
+	6350 1950 6900 1950
+Connection ~ 6900 1950
+Wire Wire Line
+	6900 1950 7475 1950
+Connection ~ 7475 1950
+Wire Wire Line
+	7475 1950 8025 1950
+Connection ~ 8025 1950
+Wire Wire Line
+	8025 1950 8600 1950
+Connection ~ 8600 1950
+Wire Wire Line
+	8600 1950 9175 1950
+Connection ~ 9175 1950
+Wire Wire Line
+	9175 1950 9750 1950
+Wire Wire Line
+	9750 2700 9175 2700
+Connection ~ 4650 2700
+Wire Wire Line
+	4650 2700 4200 2700
+Connection ~ 5225 2700
+Wire Wire Line
+	5225 2700 4650 2700
+Connection ~ 5775 2700
+Wire Wire Line
+	5775 2700 5225 2700
+Connection ~ 6350 2700
+Wire Wire Line
+	6350 2700 5775 2700
+Connection ~ 6900 2700
+Wire Wire Line
+	6900 2700 6350 2700
+Connection ~ 7475 2700
+Wire Wire Line
+	7475 2700 6900 2700
+Connection ~ 8025 2700
+Wire Wire Line
+	8025 2700 7475 2700
+Connection ~ 8600 2700
+Wire Wire Line
+	8600 2700 8025 2700
+Connection ~ 9175 2700
+Wire Wire Line
+	9175 2700 8600 2700
+Wire Wire Line
+	4200 3475 4650 3475
+Connection ~ 4650 3475
+Wire Wire Line
+	4650 3475 5225 3475
+Connection ~ 5225 3475
+Wire Wire Line
+	5225 3475 5775 3475
+Connection ~ 5775 3475
+Wire Wire Line
+	5775 3475 6350 3475
+Connection ~ 6350 3475
+Wire Wire Line
+	6350 3475 6900 3475
+Connection ~ 6900 3475
+Wire Wire Line
+	6900 3475 7475 3475
+Connection ~ 7475 3475
+Wire Wire Line
+	7475 3475 8025 3475
+Connection ~ 8025 3475
+Wire Wire Line
+	8025 3475 8600 3475
+Connection ~ 8600 3475
+Wire Wire Line
+	8600 3475 9175 3475
+Connection ~ 9175 3475
+Wire Wire Line
+	9175 3475 9750 3475
+Wire Wire Line
+	4200 4225 4650 4225
+Connection ~ 4650 4225
+Wire Wire Line
+	4650 4225 5225 4225
+Connection ~ 5225 4225
+Wire Wire Line
+	5225 4225 5775 4225
+Connection ~ 5775 4225
+Wire Wire Line
+	5775 4225 6350 4225
+Connection ~ 6350 4225
+Wire Wire Line
+	6350 4225 6900 4225
+Connection ~ 6900 4225
+Wire Wire Line
+	6900 4225 7475 4225
+Connection ~ 7475 4225
+Wire Wire Line
+	7475 4225 8025 4225
+Connection ~ 8025 4225
+Wire Wire Line
+	8025 4225 8600 4225
+Connection ~ 8600 4225
+Wire Wire Line
+	8600 4225 9175 4225
+Connection ~ 9175 4225
+Wire Wire Line
+	9175 4225 9750 4225
+Text GLabel 5050 1150 1    50   Input ~ 0
+C1
+Text GLabel 5625 1175 1    50   Input ~ 0
+C2
+Text GLabel 6175 1175 1    50   Input ~ 0
+C3
+Text GLabel 6750 1175 1    50   Input ~ 0
+C4
+Text GLabel 7300 1150 1    50   Input ~ 0
+C5
+Text GLabel 7875 1150 1    50   Input ~ 0
+C6
+Text GLabel 8425 1150 1    50   Input ~ 0
+C7
+Text GLabel 9000 1150 1    50   Input ~ 0
+C8
+Text GLabel 9575 1150 1    50   Input ~ 0
+C9
+Text GLabel 10150 1200 1    50   Input ~ 0
+C10
+Wire Wire Line
+	10150 1200 10150 1650
+Connection ~ 10150 1650
+Wire Wire Line
+	10150 1650 10150 2400
+Connection ~ 10150 2400
+Wire Wire Line
+	10150 2400 10150 3175
+Connection ~ 10150 3175
+Wire Wire Line
+	10150 3175 10150 3925
+Wire Wire Line
+	9575 3925 9575 3175
+Connection ~ 9575 1650
+Wire Wire Line
+	9575 1650 9575 1150
+Connection ~ 9575 2400
+Wire Wire Line
+	9575 2400 9575 1650
+Connection ~ 9575 3175
+Wire Wire Line
+	9575 3175 9575 2400
+Wire Wire Line
+	9000 1150 9000 1650
+Connection ~ 9000 1650
+Wire Wire Line
+	9000 1650 9000 2400
+Connection ~ 9000 2400
+Wire Wire Line
+	9000 2400 9000 3175
+Connection ~ 9000 3175
+Wire Wire Line
+	9000 3175 9000 3925
+Wire Wire Line
+	8425 1150 8425 1650
+Connection ~ 8425 1650
+Wire Wire Line
+	8425 1650 8425 2400
+Connection ~ 8425 2400
+Wire Wire Line
+	8425 2400 8425 3175
+Connection ~ 8425 3175
+Wire Wire Line
+	8425 3175 8425 3925
+Wire Wire Line
+	7875 1150 7875 1650
+Connection ~ 7875 1650
+Wire Wire Line
+	7875 1650 7875 2400
+Connection ~ 7875 2400
+Wire Wire Line
+	7875 2400 7875 3175
+Connection ~ 7875 3175
+Wire Wire Line
+	7875 3175 7875 3925
+Wire Wire Line
+	7300 1150 7300 1650
+Connection ~ 7300 1650
+Wire Wire Line
+	7300 1650 7300 2400
+Connection ~ 7300 2400
+Wire Wire Line
+	7300 2400 7300 3175
+Connection ~ 7300 3175
+Wire Wire Line
+	7300 3175 7300 3925
+Wire Wire Line
+	6750 1175 6750 1650
+Connection ~ 6750 1650
+Wire Wire Line
+	6750 1650 6750 2400
+Connection ~ 6750 2400
+Wire Wire Line
+	6750 2400 6750 3175
+Connection ~ 6750 3175
+Wire Wire Line
+	6750 3175 6750 3925
+Wire Wire Line
+	6175 1175 6175 1650
+Connection ~ 6175 1650
+Wire Wire Line
+	6175 1650 6175 2400
+Connection ~ 6175 2400
+Wire Wire Line
+	6175 2400 6175 3175
+Connection ~ 6175 3175
+Wire Wire Line
+	6175 3175 6175 3925
+Wire Wire Line
+	5625 1175 5625 1650
+Connection ~ 5625 1650
+Wire Wire Line
+	5625 1650 5625 2400
+Connection ~ 5625 2400
+Wire Wire Line
+	5625 2400 5625 3175
+Connection ~ 5625 3175
+Wire Wire Line
+	5625 3175 5625 3925
+Wire Wire Line
+	5050 1150 5050 1650
+Connection ~ 5050 1650
+Wire Wire Line
+	5050 1650 5050 2400
+Connection ~ 5050 2400
+Wire Wire Line
+	5050 2400 5050 3175
+Connection ~ 5050 3175
+Wire Wire Line
+	5050 3175 5050 3925
+Text GLabel 1425 2250 0    50   Input ~ 0
+R1
+Text GLabel 1425 2350 0    50   Input ~ 0
+R2
+Text GLabel 1425 2450 0    50   Input ~ 0
+R3
+Text GLabel 1425 2650 0    50   Input ~ 0
+R4
+Text GLabel 1425 3250 0    50   Input ~ 0
+C1
+Text GLabel 1425 3150 0    50   Input ~ 0
+C2
+Text GLabel 1425 2950 0    50   Input ~ 0
+C3
+Text GLabel 1425 2850 0    50   Input ~ 0
+C4
+Text GLabel 1425 2750 0    50   Input ~ 0
+C5
+Text GLabel 2825 2750 2    50   Input ~ 0
+C6
+Text GLabel 2825 2850 2    50   Input ~ 0
+C7
+Text GLabel 2825 2950 2    50   Input ~ 0
+C8
+Text GLabel 2825 3150 2    50   Input ~ 0
+C9
+Text GLabel 2825 3250 2    50   Input ~ 0
+C10
+Wire Wire Line
+	1425 3050 1025 3050
+Wire Wire Line
+	1425 2550 1025 2550
+Wire Wire Line
+	1025 2550 1025 3050
+Wire Wire Line
+	1425 2050 1025 2050
+Wire Wire Line
+	1025 2050 1025 2550
+Connection ~ 1025 2550
+Wire Wire Line
+	1425 1550 1025 1550
+Wire Wire Line
+	1025 1550 1025 2050
+Connection ~ 1025 2050
+$Comp
+L power:GND #PWR0102
+U 1 1 615D35B9
+P 3675 1075
+F 0 "#PWR0102" H 3675 825 50  0001 C CNN
+F 1 "GND" H 3680 902 50  0000 C CNN
+F 2 "" H 3675 1075 50  0001 C CNN
+F 3 "" H 3675 1075 50  0001 C CNN
+	1    3675 1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 2550 3225 3050
+NoConn ~ 1425 1350
+NoConn ~ 1425 1450
+NoConn ~ 1425 1650
+NoConn ~ 1425 1750
+NoConn ~ 1425 1850
+NoConn ~ 1425 1950
+NoConn ~ 1425 2150
+NoConn ~ 2825 1950
+NoConn ~ 2825 2150
+NoConn ~ 2825 2250
+NoConn ~ 2825 2350
+NoConn ~ 2825 2450
+Text GLabel 3225 2550 2    50   Input ~ 0
+GND
+Text GLabel 1025 2550 0    50   Input ~ 0
+GND
+Text GLabel 2125 3750 0    50   Input ~ 0
+GND
+Text GLabel 3075 3800 1    50   Input ~ 0
+VCC
+Text GLabel 2825 1350 2    50   Input ~ 0
+VCC
+NoConn ~ 2825 1650
+NoConn ~ 2825 1850
+NoConn ~ 2825 1750
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61641296
+P 4225 1075
+F 0 "#FLG0101" H 4225 1150 50  0001 C CNN
+F 1 "PWR_FLAG" H 4225 1248 50  0000 C CNN
+F 2 "" H 4225 1075 50  0001 C CNN
+F 3 "~" H 4225 1075 50  0001 C CNN
+	1    4225 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:YS-SK6812MINI-E LED1
+U 1 1 61784E8B
+P 2700 4925
+F 0 "LED1" H 3044 4955 29  0000 L CNN
+F 1 "YS-SK6812MINI-E" H 3044 4896 29  0000 L CNN
+F 2 "kbd:YS-SK6812MINI-E" H 2800 4675 50  0001 C CNN
+F 3 "" H 2800 4675 50  0001 C CNN
+	1    2700 4925
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 4625 2    50   Input ~ 0
+VCC
+Text GLabel 2400 4925 0    50   Input ~ 0
+LED
+Text GLabel 2825 2650 2    50   Input ~ 0
+LED
+Text GLabel 2700 5225 2    50   Input ~ 0
+GND
+NoConn ~ 3000 4925
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 617D9FE9
+P 3675 1075
+F 0 "#FLG0102" H 3675 1150 50  0001 C CNN
+F 1 "PWR_FLAG" H 3675 1248 50  0000 C CNN
+F 2 "" H 3675 1075 50  0001 C CNN
+F 3 "~" H 3675 1075 50  0001 C CNN
+	1    3675 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 617E79EB
+P 4225 1075
+F 0 "#PWR0101" H 4225 925 50  0001 C CNN
+F 1 "VCC" H 4240 1248 50  0000 C CNN
+F 2 "" H 4225 1075 50  0001 C CNN
+F 3 "" H 4225 1075 50  0001 C CNN
+	1    4225 1075
+	-1   0    0    1   
+$EndComp
+Text GLabel 2825 1450 2    50   Input ~ 0
+VIN
+Text GLabel 2325 3750 1    50   Input ~ 0
+VIN
+Wire Wire Line
+	2825 3050 3225 3050
+Wire Wire Line
+	2825 2550 3225 2550
+Text GLabel 2125 3450 3    50   Input ~ 0
+GND
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U1
+U 1 1 61454C10
+P 2125 2300
+F 0 "U1" H 2125 3515 50  0000 C CNN
+F 1 "Pico" H 2125 3424 50  0000 C CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" V 2125 2300 50  0001 C CNN
+F 3 "" H 2125 2300 50  0001 C CNN
+	1    2125 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2825 2050 2    50   Input ~ 0
+GND
+NoConn ~ 2825 1550
+$EndSCHEMATC
